@@ -1,0 +1,100 @@
+<section class="coordinators">
+        <h2>Our Coordinators</h2>
+        <div class="coordinator-list">
+            <div class="coordinator-card">
+                <img src="faculty1.jpg" alt="Dr. Saira Bhanu">
+                <h3>Dr. Saira Bhanu</h3>
+                <p>Director</p>
+            </div>
+            <div class="coordinator-card">
+                <img src="faculty2.jpg" alt="Prof. John Doe">
+                <h3>Prof. John Doe</h3>
+                <p>Faculty Coordinator</p>
+            </div>
+            <div class="coordinator-card">
+                <img src="faculty3.jpg" alt="Prof. Jane Smith">
+                <h3>Prof. Jane Smith</h3>
+                <p>Faculty Coordinator</p>
+            </div>
+
+            <div class="coordinator-card">
+                <img src="student1.jpg" alt="Alice Johnson">
+                <h3>Alice Johnson</h3>
+                <p>Student Coordinator</p>
+            </div>
+            <div class="coordinator-card">
+                <img src="student2.jpg" alt="Bob Williams">
+                <h3>Bob Williams</h3>
+                <p>Student Coordinator</p>
+            </div>
+            <div class="coordinator-card">
+                <img src="student3.jpg" alt="Clara Davis">
+                <h3>Clara Davis</h3>
+                <p>Student Coordinator</p>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+/* Coordinators Section Styling */
+.coordinators {
+    padding: 40px;
+    text-align: center;
+    background-color: #f4f4f4;
+}
+
+.coordinator-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.coordinator-card {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 250px;
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.coordinator-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.coordinator-card img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+.coordinator-card h3 {
+    font-size: 1.2em;
+    margin-bottom: 5px;
+}
+
+.coordinator-card p {
+    font-size: 0.9em;
+    color: #555;
+}
+
+/* Social Icons Styling */
+.social-icons a {
+    margin: 0 10px;
+    font-size: 1.5em;
+    color: #333;
+    transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+    color: #007bff;
+}
+

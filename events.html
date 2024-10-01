@@ -3,28 +3,54 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Enkindle Events</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Club Events</title>
+    <link rel="stylesheet" href="events.css">
 </head>
 <body>
+    <!-- Header Section -->
     <header>
+        <div class="logo-container">
+            <img src="enkindlelogo.jpg" alt="Club Logo" class="club-logo">
+            <h1>Enkindle Club Presidency </h1>
+        </div>
         <nav>
             <ul class="nav-links">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="login.html">Login</a></li>
-                <li><a href="register.html">Register</a></li>
-                <li><a href="contact.html">Contact</a></li>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Events</a></li>
+                <li><a href="#">Gallery</a></li>
+                <li><a href="#">Contact</a></li>
             </ul>
         </nav>
     </header>
 
-    <section class="main-section">
-        <h1>Our Upcoming Events</h1>
-        <p>Stay tuned for exciting tech events, workshops, and hackathons hosted by the Enkindle Club!</p>
-    </section>
+    <!-- Main Content Section -->
+    <main>
+        <section class="events-section">
+            <h2>Upcoming Events</h2>
+            <div class="events-container" id="eventsContainer">
+                <!-- JavaScript will inject event details here -->
+            </div>
+        </section>
 
+        <!-- Gallery Section -->
+        <section class="gallery-section">
+            <h2>Event Photos</h2>
+            <h2>Club's Orientation</h2>
+            <div class="gallery-container">
+                <img src="image1.jpeg" alt="Event 1">
+                <img src="image2.jpeg" alt="Event 2">
+                <img src="image3.jpeg" alt="Event 3">
+                <img src="image4.jpeg" alt="Event 4">
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer Section -->
     <footer>
-        <p>&copy; 2024 Enkindle Club | Powered by XYZ College</p>
+        <p>&copy; 2024 Club Name. All rights reserved.</p>
     </footer>
+
+    <!-- JavaScript File -->
+    <script src="events.js"></script>
 </body>
 </html>
