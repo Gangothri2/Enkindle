@@ -9,7 +9,7 @@ body {
 
 /* Navigation bar */
 header {
-    background-color: #0700C4;
+    background-color: white;
     padding: 10px 20px;
     display: flex;
     justify-content: space-between;
@@ -40,7 +40,7 @@ header {
 }
 
 .nav-links a {
-    color:white;
+    color:#0700C4;
     text-decoration: none;
     font-weight: bold;
     font-size: 18px;
@@ -50,16 +50,15 @@ header {
     text-decoration: underline;
 }
 
-/* Main section */
 .main-section {
     text-align: center;
-    padding: 50px;
-    background-color: #ffffff; /* Changed color to white */
-    margin: 20px;
+    padding: 100px;
+    background-color: #ffffff;
+    margin: 50px auto; /* Added auto to center the content horizontally */
+    max-width: 800px; /* Added max-width to control the maximum width */
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
-
 
 h1 {
     font-size: 2.5em;
@@ -159,20 +158,26 @@ p {
 
 
 /* Footer styling */
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 
-/* Social Icons Styling */
-.social-icons {
+
+.footer {
+    text-align: center; /* Center the footer content */
+  }
+  
+  .social-icons {
+    display: inline-flex; /* Make the social icons inline-flex */
+    justify-content: center; /* Center the social icons horizontally */
     margin-top: 10px;
-}
-
-.social-icons a {
+  }
+  
+  .social-icons a {
     margin: 0 10px;
     font-size: 1.5em;
     color: #333;
     transition: color 0.3s ease;
-}
-
-.social-icons a:hover {
+  }
+  
+  .social-icons a:hover {
     color: #007bff; /* Adjust to your desired hover color */
-}
+  }
+/* #0700C4; */
