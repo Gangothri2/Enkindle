@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Select Your Photo</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="scripts.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Select Your Favorite Photo</h1>
+    </header>
+    
+    <main>
+        <section class="photo-selection">
+            <h2>Topic: Nature</h2>
+            <div class="photo-grid">
+                <div class="photo-card">
+                    <input type="radio" name="photo" id="photo1" value="nature1.jpg" onclick="selectPhoto('nature1.jpg')">
+                    <label for="photo1">
+                        <img src="image1.jpeg" alt="Nature Photo 1">
+                    </label>
+                </div>
+                <div class="photo-card">
+                    <input type="radio" name="photo" id="photo2" value="nature2.jpg" onclick="selectPhoto('nature2.jpg')">
+                    <label for="photo2">
+                        <img src="image2.jpeg" alt="Nature Photo 2">
+                    </label>
+                </div>
+                <div class="photo-card">
+                    <input type="radio" name="photo" id="photo3" value="nature3.jpg" onclick="selectPhoto('nature3.jpg')">
+                    <label for="photo3">
+                        <img src="image3.jpeg" alt="Nature Photo 3">
+                    </label>
+                </div>
+                <div class="photo-card">
+                    <input type="radio" name="photo" id="photo4" value="nature4.jpg" onclick="selectPhoto('nature4.jpg')">
+                    <label for="photo4">
+                        <img src="image4.jpeg" alt="Nature Photo 4">
+                    </label>
+                </div>
+            </div>
+            <div class="selected-photo">
+                <h3>You selected:</h3>
+                <img id="display-photo" src="" alt="Selected Photo" style="display:none;">
+            </div>
+            <button onclick="submitSelection()">Submit</button>
+            <!-- <div class="result-table">
+                <!-- <h3>Selected Photos:</h3>
+                <table id="photo-table">
+                    <thead>
+                        <tr>
+                            <th>Photo</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <!-- Selected photos will be added here -->
+                    <!-- </body>
+                </table> --> -->
+            </div> -->
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Photo Selection Page</p>
+    </footer>
+</body>
+</html>
